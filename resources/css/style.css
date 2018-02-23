@@ -1,11 +1,4 @@
-/* Images */
-#mission {
-  background-image: url("../images/mission-background.jpg");
-}
 
-#locations {
-  background-image: url("../images/locations-background.jpg");
-}
 
 /* Universal */
 
@@ -154,3 +147,20 @@ h4 {
 }
 
 /* Footer */
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Images */
+#mission {
+  background-image: url("../images/mission-background.jpg");
+}
+
+#locations {
+  background-image: url("../images/locations-background.jpg");
+}
