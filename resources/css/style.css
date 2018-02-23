@@ -1,0 +1,65 @@
+/* Universal */
+
+html {
+  background-color: black;
+  color: seashell;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+/* div {
+  border: 1px solid white;
+} */
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav span {
+  margin-left: 30px;
+}
+
+/* Images */
+#mission {
+  background-image: url("../images/mission-background.jpg");
+}
+
+#locations {
+  background-image: url("../images/locations-background.jpg");
+}
+
+
+/* Header */
+.header {
+  display:flex;
+  height: 69px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px 10px 9px 10px;
+}
+
+
+
+
+
+/* Main Content */
+
+
+/* Footer */
