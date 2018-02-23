@@ -1,3 +1,12 @@
+/* Images */
+#mission {
+  background-image: url("../images/mission-background.jpg");
+}
+
+#locations {
+  background-image: url("../images/locations-background.jpg");
+}
+
 /* Universal */
 
 html {
@@ -13,9 +22,9 @@ body {
   margin: 0;
 }
 
-/* div {
+div {
   border: 1px solid white;
-} */
+}
 
 a {
   color: seashell;
@@ -30,15 +39,10 @@ nav span {
   margin-left: 30px;
 }
 
-/* Images */
-#mission {
-  background-image: url("../images/mission-background.jpg");
+h2,
+h4 {
+  margin: 15px auto;
 }
-
-#locations {
-  background-image: url("../images/locations-background.jpg");
-}
-
 
 /* Header */
 .header {
@@ -55,11 +59,26 @@ nav span {
   padding: 10px 10px 9px 10px;
 }
 
-
-
-
-
 /* Main Content */
+div.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Top Box */
+.box.top {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
 
+.banner.mission {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 /* Footer */
