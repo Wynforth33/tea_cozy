@@ -21,10 +21,10 @@ html {
 body {
   margin: 0;
 }
-/*
-div {
-  border: 1px solid white;
-} */
+
+p {
+  opacity: 1;
+}
 
 a {
   color: seashell;
@@ -54,6 +54,9 @@ h4 {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo img {
@@ -62,11 +65,12 @@ h4 {
 }
 
 /* Main Content */
-div.main {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-top: 69px;
 }
 
 /* Top Box */
@@ -121,5 +125,30 @@ div.main {
 }
 
 /* Bottom Box */
+.box.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+}
+
 
 /* Footer */
